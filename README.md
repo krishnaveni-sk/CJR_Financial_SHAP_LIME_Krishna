@@ -1,9 +1,9 @@
-📌 CJR Financial SHAP & LIME Project — Krishna
+ CJR Financial SHAP & LIME Project — Krishna
 
 This project demonstrates interpretable machine learning using SHAP (SHapley Additive exPlanations) and LIME (Local Interpretable Model-Agnostic Explanations) for financial time-series prediction.
 The project was completed as part of the Cultus Job Readiness (CJR) Program.
 
-📁 Project Structure
+ Project Structure
 ├── CJR_Financial_SHAP_LIME_Krishna.ipynb   # Main notebook (full workflow)
 ├── processed_financial_dataset.csv         # Preprocessed dataset
 ├── X_test_data.csv                         # Test features
@@ -13,7 +13,7 @@ The project was completed as part of the Cultus Job Readiness (CJR) Program.
 ├── lime_local_0.html to lime_local_9.html  # LIME local explanations (10 instances)
 └── README.md                               # Project documentation
 
-🧠 Project Goal
+ Project Goal
 
 To predict 5-day future stock movement and understand why the model makes each prediction using interpretability methods.
 
@@ -31,7 +31,7 @@ Both models were analyzed using:
 
 ✔ Comparative analysis — SHAP vs LIME
 
-🔧 Technologies Used
+ Technologies Used
 
 Python
 
@@ -51,7 +51,7 @@ LIME
 
 Matplotlib / Seaborn
 
-🛠️ Steps Performed
+ Steps Performed
 1️⃣ Data Preparation
 
 Loaded the financial dataset from CSV
@@ -123,7 +123,7 @@ Why certain features strongly influence volatility
 
 Practical insights useful for financial analysts
 
-📊 Key Insights
+ Key Insights
 
 Lag-based features and volatility indicators were the strongest predictors.
 
@@ -133,7 +133,7 @@ LIME provided deep clarity for each individual prediction.
 
 Both models agreed on major drivers, increasing confidence in predictions.
 
-📦 Deliverables Included
+ Deliverables Included
 
 ✔ Preprocessed dataset
 ✔ Model training code
@@ -143,7 +143,7 @@ Both models agreed on major drivers, increasing confidence in predictions.
 ✔ Comparative analysis
 ✔ Complete README documentation
 
-📌 Author
+ Author
 
 Krishnaveni S
 Cultus Job Readiness Program
